@@ -74,7 +74,7 @@ Steps taken :
 1. Setup Heroku and PostgreSQL Add On [out of scope of this README]
 2. Populate the database [using: database_init/setup.py]
 
-##  REST Api + Frontend.
+##  REST API + Frontend.
 
 Technologies used: NodeJS, ExpressJS, ReactJS
 
@@ -87,7 +87,7 @@ The server has only one route : **/api/scoreboard?league_id=LEAGUE_ID**
 - The call returns a list of all the teams in the specific list with the information including team_name, points, goal_diff.
 - Any other route leads to the Frontend.
 
-Logic of the server : When the route is hit, select the teams from the SQL database and order them (first by points, then by goal_diff and then by name).
+Logic of the server : When the route is hit, select the teams from the league from the SQL database and order them (first by points, then by goal_diff and then by name).
 
 Location of code : website/index.js
 
