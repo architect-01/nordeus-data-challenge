@@ -1,6 +1,7 @@
 # Data Challenge From Nordeus
 This repository represents a solution for the Nordeus Data Challenge. <br/>
 
+Update: I WON the challenge - but no big deal, I'm playing it cool :) <br/>
 # DEMO
 Based on the selected league id, the current scoreboard is presented as a table.
 
